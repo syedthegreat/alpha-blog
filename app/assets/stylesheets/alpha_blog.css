@@ -1,0 +1,580 @@
+body{
+	background-color:#999;
+	font-family: TwCenMT-Condensed !important;	
+	}
+	
+.wrapper{
+	background:#FFF;
+	width:1024px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.header{
+	width:100%;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:0px;
+	}
+	
+.header img{
+	width:1024px;
+	height:80px;
+	}
+
+.rera{
+	width:50px;
+	height:50px;
+	z-index:999999;
+	position:absolute;
+	margin-top:74px;
+	margin-left:120px;
+	}
+	
+.rera img{
+	width:100%;
+	height:100%;
+	
+	}
+
+.menu-outer{
+	width:100%;
+	height:40px;
+	background:#CCC;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	}
+	
+.menu-left a{
+	position: relative;
+    z-index: 10;
+    height: 35px;
+    display: block;
+    float: left;
+    line-height: 35px;
+    text-decoration: none;
+    color: rgb(0,191,255);
+    font: normal 22px Helvetica, Arial, sans-serif;
+    border: 1px solid #171717;
+    margin-top: 1px;
+    background:#83797c;
+	padding-left:5px;
+	padding-right:5px;
+	
+	}
+
+
+
+
+.menu-right{
+	width:70%;
+	height:40px;
+	background:#CCC;
+	float:right;
+	display:inline;
+	}
+	
+	
+#menu {
+	float:right;
+	}
+
+#menu ul {
+	margin:25px;
+	}
+	
+#menu ul li{
+	display:inline;
+	text-decoration:none;
+	margin:25px;
+	}
+	
+#menu ul li a{
+	display:inline;
+	margin:0px;
+	text-decoration:none;
+	color:#959594;
+	list-style:none;
+	
+	}
+
+.content{
+	width:100%;
+	height:auto;
+	background:#FFF;
+	float:left;
+	
+	
+	
+	}
+
+.content-bg{
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background:#FFF;
+	}
+
+.content-left{
+	width:20%;
+	height:auto;
+	float:left;
+	
+	}
+
+.services{
+	width:90%;
+	height:200px;
+	list-style:none;
+	color:#666;
+	font:arial;
+	margin-left:5px;
+	margin-top:20px;
+	background:#b7aaaa;
+	float:left;
+	border: solid 1px #999999;
+	border-radius: 10px;
+	}
+	
+.services span{
+	text-align:left;
+	text-transform:uppercase;
+	color:#666;
+	font-weight:bold;
+	
+	}
+
+.services ul li{
+	width:100%;
+	height:auto;
+	list-style:none;
+	color:#666;
+	font-family:'Conv_TrajanP0', Sans-Serif;
+	
+	}
+
+.services ul li:first-child{
+	text-decoration:underline;
+	}
+
+.types{
+	width:90%;
+	height:200px;
+	list-style:none;
+	color:#666;
+	font:arial;
+	margin-left:5px;
+	margin-top:5px;
+	background:#b7aaaa;
+	float:left;
+	border: solid 1px #999999;
+	border-radius: 10px;
+	}
+.types span{
+	width:100%;
+	height:auto;
+	text-align:left;
+	text-transform
+	color:#666;
+	font-weight:bold;
+	}
+.types ul li{
+	width:100%;
+	height:auto;
+	list-style:none;
+	color:#666;
+	font-family:'Conv_TrajanP0', Sans-Serif;
+	}
+
+
+.content-center{
+	width:58.5%;
+	height:auto;
+	float:left;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	}
+	
+.sj {
+	margin-top:20px;
+	width:600px;
+	height:200px;
+	
+	}
+	
+.sj img {
+	
+	width:600px;
+	height:200px;
+	}
+	
+.content-center h3{
+	width:100%;
+	height:auto;
+	margin-left:40px;
+	font:arial;
+	color:#c1272d;
+	font-weight:900;
+	font-stretch:extra-expanded;
+	font-size:24px;
+	text-align:center;
+	font-family: TwCenMT-Condensed;
+	
+	}
+
+.feature-product{
+	width:200px;
+	height:auto;
+	float:left;
+	margin-left:40px;
+	margin-right:5px;
+	}
+
+.feature-picture{
+	width:200px;
+	height:200px;
+	
+	}
+
+.feature-picture img{
+	width:200px;
+	height:200px;
+	
+	}
+
+
+.feature-text{
+	width:200px;
+	height:auto;
+	
+	
+	}
+
+
+.feature-addcart{
+	width:100px;
+	height:50px;
+	}
+	
+
+	
+.moreinfo-button{
+	width:50px;
+	height:25px;
+	}
+	
+
+
+
+.content-right{
+	width:20%;
+	height:auto;
+	margin-left:0px;
+	margin-right:0px;
+	float:left;
+	}
+
+.areas{
+	width:90%;
+	height:250px;
+	list-style:none;
+	color:#666;
+	font:arial;
+	margin-left:5px;
+	margin-top:20px;
+	background:#b7aaaa;
+	float:left;
+	border: solid 1px #999999;
+	border-radius: 10px;
+	
+	}
+.areas ul li{
+	width:100%;
+	height:auto;
+	list-style:none;
+	color:#666;
+	font-family:'Conv_TrajanP0', Sans-Serif;
+	}
+.areas span{
+	width:100%;
+	height:auto;
+	text-align:left;
+	text-transform
+	color:#666;
+	font-weight:bold;
+	}
+
+.foot-border{
+	width:100%;
+	height:5px;
+	background:#fff;
+	border-top: 2px solid #c1272d;
+	border-bottom: 2px solid #c1272d;
+	float:left;
+	margin-top:10px;
+	
+	}
+
+.footer{
+	width:100%;
+	height:auto;
+	background:#CCC;
+	float:left;
+	
+	}
+
+.footer-upper{
+	width:100%;
+	height:auto;
+	display:inline;
+	text-align:center;
+	
+	
+	}
+.footer-upper ul li{
+	width:100%;
+	height:auto;
+	Color:#009;
+	font:Myriad Pro;
+	display:inline;
+	text-transform:uppercase;
+	list-style:none;
+	border-right: 2px solid #FF0;
+	
+	padding-right:20px;
+	margin-right:20px;
+	text-align:center;
+	
+	}
+
+.footer-lower{
+	width:150px;
+	height:50px;
+	text-align:center;
+	
+	
+	
+	}
+	
+.footer-lower img{
+	width:150px;;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	z-index:999999;
+	margin-left:500px;
+	margin-bottom:700px;
+	}
+
+	
+	
+<!------------------------------contact us-->
+
+.contact{
+	width:700px;
+	height:500px;;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.contact-background{
+	width:90%;
+	background-color:#CCC;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+		}
+
+.contact-form {
+	width:70%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	}	
+	
+	
+.contact-form input {
+	width:100%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+		
+	padding: 6px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+	background-color: #fff;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+.contact-form span{
+	text-decoration:underline;
+	font-size:14px;
+	font-style:italic;
+	font:arial;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	color:#000;
+	text-align:left;
+	
+	}
+
+.contact-form textarea{
+	
+	background-color: #fff;
+    color:#000;
+    width:99%;
+	height:150px;
+	min-height:100px;
+	min-width:99%;
+	}
+	
+
+	
+.btn {
+	width:100%;
+	height:60px;
+	margin-bottom:10px;
+	background-color:#f0859f;
+	color:#000;
+	font-size:18px;
+	text-align:center;
+	}
+	
+.btn:hover{
+	
+	background-color:#F9F;
+	content:'»';
+	font-size:18px;
+	transition:1s;
+	cursor:pointer;
+	padding-right:25px;
+	
+	}
+	
+.contact-form select {
+	width:100%;
+	height:50px;
+	margin-bottom:10px;
+	font-size:18px;
+	font-stretch:expanded;
+	
+	}
+	
+
+	
+.map{
+	width:924px;
+	height:auto;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+	
+/*login admin form*/
+
+.content-bg{
+	background-color:#CCC;
+	}
+
+.admin-form {
+	width:70%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}	
+	
+	
+.admin-form input {
+	width:100%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+		
+	padding: 6px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+	background-color: #fff;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	
+	/* Admin Add Item*/
+	
+.add_itm{
+	width:50%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	
+	}	
+	
+	
+.add_itm input {
+	width:100%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+		
+	padding: 6px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+	background-color: #fff;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	
+.add_itm textarea {
+	width:100%;
+	height:auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+		
+	padding: 6px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+	background-color: #fff;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	
+.adminkit{
+	width:100%;
+	height:900px;
+	float:left;
+	}
+
+.adminkit-left{
+		
+	}
+
+.adminkit-center{
+	width:50%;
+	height:auto;
+	float:left;
+	}
+	
+<!---------------------add_cart content-->
+
+.add_cart_content{
+	width:100%;
+	height:1000px;
+	background-color:#FFF;
+	
+		}
