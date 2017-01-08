@@ -43,10 +43,6 @@ group :development do
   gem 'web-console'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-
 #commented-----------
 #group :production do
 group :test, :production do
@@ -54,3 +50,8 @@ group :test, :production do
 	gem 'rails_12factor'
 	
 end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
