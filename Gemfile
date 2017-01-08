@@ -30,14 +30,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development, :test do
-	gem 'sqlite3'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
-end
+# commented out-------------
+# group :development, :test do
+# 	gem 'sqlite3'
+#   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+#   gem 'byebug', platform: :mri
+# end
 
 group :development do
-
+	gem 'sqlite3'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
 end
@@ -46,9 +47,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-
-group :production do
-gem 'pg'
-gem 'rails_12factor'
+#commented-----------
+#group :production do
+group :test, :production do
+	gem 'pg'
+	gem 'rails_12factor'
 	
 end
